@@ -1,0 +1,33 @@
+.contactsPage {
+    margin: auto;
+    text-align: center;
+    position: relative;
+  }
+  
+  .contactsPage > div {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .contactsPage form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contactsPage input {
+    margin-bottom: 20px;
+    padding: 5px 15px;
+  }
+  
+  .contactsPage button {
+    width: 100%;
+    outline: none;
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
